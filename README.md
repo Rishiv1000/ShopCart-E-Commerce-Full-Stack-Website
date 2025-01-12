@@ -1,18 +1,101 @@
-https://github.com/Yogndrr/MERN-Ecommerce-Site
-https://github.com/T1-Zed/task-management-app/tree/master
+<h1 align="center">
+    SHOPCART: Ecommerce Site
+</h1>
 
-![Screenshot 2023-12-11 210131](https://github.com/Rishiv1000/Mobile_Shop-Website/assets/114014651/353876b8-20ce-4d32-89c8-088c28f2695f)
+<h3 align="center">
+Seamless shopping, search and explore different product categories, add products to cart, and checkout swiftly. <br>
+Become a seller and add products, monitor sales, and gather customer feedback.
+</h3>
 
-![Screenshot 2023-12-11 210115](https://github.com/Rishiv1000/Mobile_Shop-Website/assets/114014651/06cdb89a-51e4-48c3-856a-20c240b05e60)
+<br>
 
-![Screenshot 2023-12-11 210018](https://github.com/Rishiv1000/Mobile_Shop-Website/assets/114014651/fc5e1d11-9765-4387-922a-7abd8cc33490)
+[Youtube Video](https://youtu.be/i_z0HYk3IuQ?si=S04-IBq7Ny8k0FYC)
+<br><br>
+[LinkedIn](https://www.linkedin.com/in/yogndr/)
 
-![Screenshot 2023-12-11 210039](https://github.com/Rishiv1000/Mobile_Shop-Website/assets/114014651/064e52c6-493a-4991-846f-faa0a5a623e7)
+# About
 
-![Screenshot 2023-12-11 210419](https://github.com/Rishiv1000/Mobile_Shop-Website/assets/114014651/6fd1df99-ddb7-4d75-8b8b-6c3045c71493)
+ShopCart is an ecommerce site developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It offers a user-friendly and efficient shopping experience for customers, while providing sellers with essential tools to manage their products and sales.
 
-![Screenshot 2023-12-11 210523](https://github.com/Rishiv1000/Mobile_Shop-Website/assets/114014651/33bb311e-2a2e-4920-be18-742efa9df103)
+## Features
 
+- **User Registration:** ShopCart allows users to register as customers or sellers, enabling a tailored shopping experience.
 
+- **Cart System:** Customers can add products to their cart for easy checkout. The cart allows them to review and manage their selections before completing the purchase.
 
-![Screenshot 2023-12-11 212314](https://github.com/Rishiv1000/Mobile_Shop-Website/assets/114014651/f02bb2d3-46af-44b4-808c-df0dd2449a76)
+- **Product Search:** ShopCart offers a search functionality where customers can find products by name or browse through categories such as Electronics, Clothes, Kitchen, and more.
+
+- **Reviews and Ratings:** Customers can leave reviews and ratings (out of 5) for products they've purchased, providing valuable feedback for sellers and building trust within the community.
+
+- **Seller Dashboard:** Sellers have access to a dedicated dashboard where they can manage their products, view sales data, and gain insights into their store's performance through data visualization.
+
+- **Product Management:** Sellers can add products with detailed information and set their prices. They can also check which customers have added their products to their carts.
+
+- **Order Tracking:** Sellers can monitor the products ordered by customers, helping them stay organized and fulfill orders efficiently.
+
+## Technologies Used
+
+- Frontend: React.js, Material UI, Redux Toolkit, Styled Components
+- Backend: Node.js, Express.js, JWT Token
+- Database: MongoDB
+- Data Visualization: React Apexcharts
+
+<br>
+
+# Installation
+
+```sh
+git clone https://github.com/Yogndrr/MERN-Ecommerce-Site.git
+```
+Open 2 terminals in separate windows/tabs.
+
+Terminal 1: Setting Up Backend 
+```sh
+cd backend
+npm install
+npm start
+```
+
+Create a file called .env in the backend folder.
+Inside it write this :
+
+```sh
+MONGO_URL = mongodb://127.0.0.1/ecommerce
+
+SECRET_KEY = 'secret-key'
+```
+Instead of this link write your database link.
+
+Terminal 2: Setting Up Frontend
+```sh
+cd frontend
+npm install
+npm start
+```
+Now, navigate to `localhost:3000` in your browser. 
+The Backend API will be running at `localhost:5000`.
+<br>
+# Error Solution
+
+If you encounter a network error while signing up, follow these steps to resolve it:
+
+1. Navigate to the `src > redux > userHandle.js` file.
+
+2. Add the following line after the import statements:
+
+```javascript
+const REACT_APP_BASE_URL = "http://localhost:5000";
+```
+
+3. Replace all instances of `process.env.REACT_APP_BASE_URL` with `REACT_APP_BASE_URL`.
+
+The issue arises because the `.env` file in the frontend may not work for all users, while it works for me.
+
+These steps should resolve the network error in the frontend. If the issue persists, feel free to contact me for further assistance.
+
+Don't forget to leave a star for this project if you found the solution helpful. Thank you!
+
+# Deployment
+* Render - server side
+* Vercel - client side
+
