@@ -32,6 +32,10 @@ MONGO_URL = mongodb+srv://rishiv1000:1221@cluster0.wx5el.mongodb.net/?retryWrite
 
 SECRET_KEY = 'secret-key'
 
+# ENV FILE FOR FRONTEND
+
+REACT_APP_BASE_URL = "http://localhost:5000";
+
 # Error Solution
 
 If you encounter a network error while signing up, follow these steps to resolve it:
