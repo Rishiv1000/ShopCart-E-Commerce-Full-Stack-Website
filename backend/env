@@ -1,0 +1,3 @@
+MONGO_URL = mongodb+srv://rishiv1000:1221@cluster0.wx5el.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+SECRET_KEY = 'secret-key'
