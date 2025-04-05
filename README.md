@@ -8,6 +8,12 @@
 
 ShopCart is an ecommerce site developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It offers a user-friendly and efficient shopping experience for customers, while providing sellers with essential tools to manage their products and sales.
 
+
+https://github.com/user-attachments/assets/0c213ca3-3952-4d64-bb33-fb9c4d38ae87
+
+
+
+
 ## Features
 
 - **User Registration:** ShopCart allows users to register as customers or sellers, enabling a tailored shopping experience.
