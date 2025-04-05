@@ -2,11 +2,6 @@
     SHOPCART: Ecommerce Site
 </h1>
 
-<h3 align="center">
-Seamless shopping, search and explore different product categories, add products to cart, and checkout swiftly. <br>
-Become a seller and add products, monitor sales, and gather customer feedback.
-</h3>
-
 <br>
 
 # About
@@ -38,36 +33,11 @@ ShopCart is an ecommerce site developed using the MERN (MongoDB, Express.js, Rea
 
 <br>
 
-# Installation
+# ENV FILE FOR BACKEND 
 
-Open 2 terminals in separate windows/tabs.
-
-Terminal 1: Setting Up Backend 
-sh
-cd backend
-npm install
-npm start
-
-
-Create a file called .env in the backend folder.
-Inside it write this :
-
-sh
-MONGO_URL = mongodb://127.0.0.1/ecommerce
-
+MONGO_URL = mongodb+srv://rishiv1000:1221@cluster0.wx5el.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 SECRET_KEY = 'secret-key'
 
-Instead of this link write your database link.
-
-Terminal 2: Setting Up Frontend
-sh
-cd frontend
-npm install
-npm start
-
-Now, navigate to localhost:3000 in your browser. 
-The Backend API will be running at localhost:5000.
-<br>
 # Error Solution
 
 If you encounter a network error while signing up, follow these steps to resolve it:
